@@ -6,5 +6,4 @@ TOKEN = config('TOKEN', default='None')
 
 bot = Bot(TOKEN)
 dp = Dispatcher(bot=bot)
-
-
+ADMINS_ID = [2043671245]
